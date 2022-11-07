@@ -1,0 +1,137 @@
+:root{
+    --primari-text-color: #757575;
+    --title-text-color:  #212121;
+    --background-color: #ffffff;
+    --accent-color: #2196F3; 
+    }
+   
+    body {
+        color: var(--primari-text-color);
+        background-color: #ffffff;
+        font-family: roboto, sans-serif;
+    }
+    a{
+        text-decoration: none;
+    }
+    ul{
+        list-style: none;
+    }
+    /* header */
+    
+    .logo {
+        color: #000000;
+        font-family: Raleway, sans-serif;
+        font-style: 700;
+        font-size: 26px;
+        line-height: 1.2;
+        letter-spacing: 0.78px;
+    }
+    /* color */
+    .logo-span,
+    .nav-link:hover,
+    .nav-link:focus,
+    .link-item:hover,
+    .link-item:focus
+    {
+        color: #2196F3;
+    }
+    .nav-link,
+    /* /header */
+    .peculiarities h4,
+    .what-we-do,
+    .team,
+    .nav-work,
+    .work h2{
+        color: #212121;
+    }
+    /* header */
+    .link-item,
+    /* /header */
+    .peculiarities p,
+    .team p,
+    .work p{
+        color: #757575;
+    }
+    .hero-section,
+    button,
+    .footer a ,
+    .footer address,
+    .nav-work:hover,
+    .nav-work:focus{
+        color: #FFFFFF;
+    }
+    .footer li>a{
+        color: rgba(255, 255, 255, 0.6);
+    }
+    /* background-color */
+    .hero-section,
+    .footer{
+        background-color: #2F303A;
+       }
+    .nav-work{
+        background-color: #F5F4FA;
+       
+    }
+    .nav-work:hover,
+    .nav-work:focus,
+    button{
+        background-color: #2196F3;
+    }
+    /* text */
+    .nav-link,
+    .link-item{
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.1; 
+        letter-spacing: 0.28px;
+    }
+    .hero-section-title{
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.4;
+        letter-spacing:2.64px;
+    }
+    button{
+         font-weight: 700; 
+         font-size: 16px;
+         line-height: 1.9;
+         letter-spacing:0.96px;
+    }
+    .peculiarities h4{
+         font-weight: 700;
+         font-size: 14px;
+         line-height: 1.1;
+         letter-spacing: 0.42px;
+    }
+    .peculiarities p{
+        font-weight: 400;
+        font-size: 14;
+        line-height: 1.7;
+        letter-spacing: 0.42px;
+    }
+    .what-we-do, 
+    .team-title {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.2;
+        letter-spacing: 1.08px;
+   }
+   .team h3 {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.2;
+        letter-spacing: 0.48px;
+   }
+   .profession{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.2;
+        letter-spacing: 0.48px;
+   }
+   address,
+   .footer li>a{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.7;
+        letter-spacing: 0.42px;
+   }
